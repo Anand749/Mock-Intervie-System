@@ -4,7 +4,7 @@ from functions.question_generation import generate_questions
 # from functions.emotion_analysis import analyze_fun
 from functions.review_generation import gen_review
 from flask_cors import CORS, cross_origin
-from dotenv import load_dotenv
+from dotenv import load_dotenv  
 import os
 
 app = Flask(__name__)
